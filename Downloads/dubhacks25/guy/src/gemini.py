@@ -4,7 +4,6 @@ import json
 from google import genai
 from google.genai import types
 
-
 api_key = os.getenv("GEMINI_API_KEY")
 
 # Need to set environment variable with api key on own device!!!
