@@ -1,0 +1,6 @@
+{
+    "model": "gemini-2.5-flash",
+    "system_instruction": "You are helping business owners anaylze their data and give suggestions for more profits",
+    "temperature": "1.25"
+
+}
