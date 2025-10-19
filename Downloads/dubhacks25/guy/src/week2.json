@@ -1,17 +1,19 @@
 {
   "inventory": [
     { "item_name": "Espresso Beans (lb)", "count": 100 },
+    { "item_name": "Matcha Powder (lb)", "count": 20},
     { "item_name": "Cow Milk (gal)", "count": 15 },
     { "item_name": "Oat Milk (gal)", "count": 10 },
     { "item_name": "Sugar Packets", "count": 500 },
-    { "item_name": "Croissants", "count": 50},
-    { "item_name": "Muffins", "count": 50 }
+    { "item_name": "Croissants", "count": 50 },
+    { "item_name": "Muffins", "count": 50 },
+    { "item_name": "Bagels", "count": 60 }
   ],
   
   "budget": {
-    "total_weekly_budget": 2800,
+    "total_weekly_budget": 3100,
     "allocated": {
-      "inventory": 1000,
+      "inventory": 1300,
       "staff_wages": 1000,
       "marketing": 200,
       "maintenance": 100,
@@ -21,10 +23,11 @@
 
   "sales": [
     { "item_name": "Espresso", "current_price": 4.00, "units_sold": 180 },
-    { "item_name": "Americano", "current_price": 4.25, "units_sold": 200},
+    { "iten_name": "Americano", "current_price": 4.25, "units_sold": 200},
     { "item_name": "Latte", "current_price": 4.50, "units_sold": 220 },
     { "item_name": "Cappuccino", "current_price": 4.75, "units_sold": 160 },
     { "item_name": "Iced Coffee", "current_price": 4.00, "units_sold": 140 },
+    { "item_name": "Matcha Latte", "current_price": 5.00, "units_sold": 200},
     { "item_name": "Croissant", "current_price": 5.00, "units_sold": 90 },
     { "item_name": "Muffin", "current_price": 4.00, "units_sold": 80 }
   ],
