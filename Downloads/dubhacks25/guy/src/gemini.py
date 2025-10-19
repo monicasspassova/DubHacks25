@@ -19,12 +19,11 @@ with open(config_path, 'r') as f:
     config = json.load(f)
 
 # create chat w/ configuring from file
-chat = client.chats.create(model="gemini-2.5-flash",config= types.GenerateContentConfig(
+chat = client.chats.create(model = "gemini-2.5-flash", config= types.GenerateContentConfig(
     system_instruction = config.get("system_instruction"),
-    temperature = config.get("temperature"))
+    temperature = config.get("temperature"),
+    max_output_tokens = config.get("maxOutputTokens"))
 )
-
-# start chat
 
 # loop chat
 go = True
