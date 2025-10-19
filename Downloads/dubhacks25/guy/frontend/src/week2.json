@@ -1,0 +1,72 @@
+{
+  "inventory": [
+    { "item_name": "Espresso Beans (lb)", "count": 100 },
+    { "item_name": "Matcha Powder (lb)", "count": 20},
+    { "item_name": "Cow Milk (gal)", "count": 15 },
+    { "item_name": "Oat Milk (gal)", "count": 10 },
+    { "item_name": "Sugar Packets", "count": 500 },
+    { "item_name": "Croissants", "count": 50 },
+    { "item_name": "Muffins", "count": 50 },
+    { "item_name": "Bagels", "count": 60 }
+  ],
+  
+  "budget": {
+    "total_weekly_budget": 3100,
+    "allocated": {
+      "inventory": 1300,
+      "staff_wages": 1000,
+      "marketing": 200,
+      "maintenance": 100,
+      "rent": 500
+    }
+  },
+
+  "sales": [
+    { "item_name": "Espresso", "current_price": 4.00, "units_sold": 180 },
+    { "iten_name": "Americano", "current_price": 4.25, "units_sold": 200},
+    { "item_name": "Latte", "current_price": 4.50, "units_sold": 220 },
+    { "item_name": "Cappuccino", "current_price": 4.75, "units_sold": 160 },
+    { "item_name": "Iced Coffee", "current_price": 4.00, "units_sold": 140 },
+    { "item_name": "Matcha Latte", "current_price": 5.00, "units_sold": 200},
+    { "item_name": "Croissant", "current_price": 5.00, "units_sold": 90 },
+    { "item_name": "Muffin", "current_price": 4.00, "units_sold": 80 }
+  ],
+
+  "legislation": {
+    "pricing_restrictions": [
+      "No price increases above 15% within a single quarter.",
+      "Must include sales tax in listed menu prices.",
+      "Minimum wage compliance required for all baristas.",
+      "Discounts cannot exceed 50% of listed price without manager approval."
+    ]
+  },
+
+  "product_information": [
+    {
+      "item_name": "Espresso",
+      "summary": "A concentrated shot of coffee made by forcing hot water through finely-ground beans. Sourced from sustainable farms in Colombia."
+    },
+    {
+      "item_name": "Latte",
+      "summary": "Espresso with steamed milk and a layer of thin foam. Available with cow's milk or oat milk."
+    },
+    {
+      "item_name": "Cappuccino",
+      "summary": "Espresso with equal parts steamed milk and milk foam, topped with cocoa powder."
+    },
+    {
+      "item_name": "Iced Coffee",
+      "summary": "Brewed coffee poured over ice, served unsweetened or sweetened."
+    },
+    {
+      "item_name": "Croissant",
+      "summary": "Flaky, buttery pastry baked fresh daily from local ingredients."
+    },
+    {
+      "item_name": "Muffin",
+      "summary": "Soft baked good that pairs well with coffee."
+    }
+  ]
+}
+
+
