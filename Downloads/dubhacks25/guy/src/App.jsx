@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="chat-container">
-      <h1>Gemini Assistant 💬</h1>
+      <h1>GUY</h1>
 
       <div className="chat-box">
         {messages.map((msg, idx) => (
