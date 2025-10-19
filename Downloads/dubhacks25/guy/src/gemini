@@ -1,14 +1,27 @@
 # gemini model here?
 import os 
+import json
 from google import genai
+from google.genai import types
 
 api_key = os.getenv("GEMINI_API_KEY")
 
-# The client gets the API key from the environment variable `GEMINI_API_KEY`.
-client = genai.Client(api_key= api_key)
+# Need to set environment variable with api key on own device!!!
+client = genai.Client(api_key = api_key)
 
-response = client.models.generate_content(
-    model="gemini-2.5-flash", contents="Tell me how many days are in a year."
-)
+with open("model config.json", "r") as f:
+    config = json.load(f)
 
-print(response.text)
+
+chat = client.chats.create(model="gemini-2.5-flash")
+
+go = True
+while go:
+    msg = input()
+    if (msg == "quit"): go =False
+    response = chat.send_message(msg)
+    print(response)
+
+
+
+
