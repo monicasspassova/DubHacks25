@@ -53,20 +53,39 @@ body {
 }
 
 .chat-container {
-  width: 420px;
+  /* width: 420px;
   height: 600px;
   background: white;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px; */
+  position: fixed;
+  bottom: 20px;     /* distance from bottom edge */
+  right: 20px;      /* distance from right edge */
+  width: 320px;     /* adjust as needed */
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: sans-serif;
+  z-index: 9999; /* ensures it floats above other content */
 }
 
 h1 {
   text-align: center;
   color: #6200ea;
   margin-bottom: 10px;
+  /* background: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+  text-align: center; */
 }
 
 .chat-box {
