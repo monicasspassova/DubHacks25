@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import "./App.css";
 import revenueData from "./data/revenueData";
+import mascotGif from "./assets/guygif.gif";
 import {
   LineChart,
   Line,
@@ -149,6 +150,7 @@ function App() {
         </div>
         
       </div>
+      <img src={mascotGif} alt="Chat Mascot" className="chat-mascot" />
 
       <div className="recommendation-box">
         <h2>Recommendations:</h2>

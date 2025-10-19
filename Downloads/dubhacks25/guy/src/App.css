@@ -25,6 +25,16 @@ body {
   z-index: 9999; /* ensures it floats above other content */
 }
 
+.chat-mascot {
+  position: absolute;        /* attach to chat box corner */
+  bottom: 427px;             /* slight overlap below */
+  right: 11px;              /* shift out to the right */
+  width: 80px;               /* adjust size */
+  height: auto;
+  z-index: 10000;
+  pointer-events: none;      /* allows clicks to pass through */
+}
+
 h1 {
   background: #0e2e85;
   color: white;
