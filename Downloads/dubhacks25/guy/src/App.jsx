@@ -72,6 +72,9 @@ function App() {
 
   return (
     <>
+    <header className="app-header">
+      <h1>Tech Guy</h1>
+    </header>
     <div className="revenue-filters">
         {/**Dropdown menu 1: products */}
         <select

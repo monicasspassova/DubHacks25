@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   margin: 0;
   background: #f7f8fa;
@@ -6,6 +8,29 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.app-header {
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;                     
+  background-color: #0e2e85;
+  color: white;
+  display: flex;                    
+  align-items: center;              
+  justify-content: flex-start;      
+  padding-left: 10px;               
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.6rem;                
+  transform: scale(1.2);            
+  transform-origin: left center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0px #091b5a;
+  z-index: 10000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  line-height: 1; 
 }
 
 .chat-container {
@@ -109,7 +134,7 @@ button:hover {
 .recommendation-box {
   position: fixed;
   bottom: 20px;
-  top: 400px;
+  top: 450px;
   left: 20px;
   width: 600px;
   background-color: #ffffff;
@@ -133,7 +158,7 @@ button:hover {
 
 .revenue-box {
   position: fixed;
-  top: 50px;
+  top: 130px;
   left: 20px;
   width: 600px;
   background-color: #ffffff;
@@ -175,7 +200,7 @@ button:hover {
 /* 🟩 Dropdown styling */
 .revenue-filters {
   position: fixed;
-  top: 20px;
+  top: 90px;
   left: 20px;
   width: 600px;
   display: flex;
